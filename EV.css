@@ -1,0 +1,114 @@
+/* EV.css - Electric Vehicle Website Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ev {
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.imagebuy {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.imagebuy:hover {
+    transform: scale(1.05);
+}
+
+.nearby1, .nearby2 {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.nearby1:hover, .nearby2:hover {
+    transform: scale(1.05);
+}
+
+.rental {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.rental_vehicle {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.rent_now {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.rent_now:hover {
+    background-color: #218838;
+    color: white;
+    text-decoration: none;
+}
+
+.resell {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.button {
+    padding: 10px 25px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.para {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.written {
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.last {
+    margin-top: 50px;
+}
+
+figure {
+    text-align: center;
+    margin: 15px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+}
